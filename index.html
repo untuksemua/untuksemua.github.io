@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Untksemua - Halaman Utama</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Untuk Semua - Aplikasi Terpercaya</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 30px 20px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.8rem;
+    color: #0052cc;
+    margin-bottom: 15px;
+  }
+  p.lead {
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+    color: #555;
+  }
+  a.button {
+    display: inline-block;
+    padding: 14px 30px;
+    margin: 10px 15px;
+    background-color: #0052cc;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  a.button:hover {
+    background-color: #003d99;
+  }
+  footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+</style>
 </head>
 <body>
-    <h1>Selamat datang di Untuk Semua</h1>
-    <p>Ini adalah halaman utama aplikasi kami.</p>
-    
-    <h2>Link Penting</h2>
-    <ul>
-        <li>
-            <a href="https://untuksemua.github.io/" target="_blank" rel="noopener noreferrer">
-                Halaman Utama Aplikasi
-            </a>
-        </li>
-        <li>
-            <a href="https://untuksemua.github.io/privacy-policy.html" target="_blank" rel="noopener noreferrer">
-                Kebijakan Privasi (Privacy Policy)
-            </a>
-        </li>
-        <li>
-            <a href="https://untuksemua.github.io/terms-of-service.html" target="_blank" rel="noopener noreferrer">
-                Ketentuan Layanan (Terms of Service)
-            </a>
-        </li>
-    </ul>
+  <div class="container">
+    <h1>Selamat Datang di Untuk Semua</h1>
+    <p class="lead">Aplikasi yang memudahkan kehidupan Anda dengan akses mudah dan aman menggunakan akun Google.</p>
+
+    <nav>
+      <a href="privacy-policy.html" class="button" target="_blank" rel="noopener noreferrer">Kebijakan Privasi</a>
+      <a href="terms-of-service.html" class="button" target="_blank" rel="noopener noreferrer">Ketentuan Layanan</a>
+      <a href="#" class="button" onclick="alert('Fungsi login akan diimplementasikan di sini');">Login dengan Google</a>
+    </nav>
+
+    <footer>
+      © 2025 Untuk Semua. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
