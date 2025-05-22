@@ -66,6 +66,8 @@
     margin-bottom: 25px;
   }
 </style>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
 </head>
 <body>
   <div class="container">
@@ -81,7 +83,21 @@
     <nav>
       <a href="privacy-policy.html" class="button" target="_blank" rel="noopener noreferrer">Kebijakan Privasi</a>
       <a href="terms-of-service.html" class="button" target="_blank" rel="noopener noreferrer">Ketentuan Layanan</a>
-      <a href="#" class="button" onclick="alert('Fungsi login akan diimplementasikan di sini');">Login dengan Google</a>
+      <div id="g_id_onload"
+     data-client_id="410336650527-e92dbpbg23602p5bcc20bgvvgm3d0pu0.apps.googleusercontent.com"
+     data-login_uri="https://untuksemua.github.io/login-callback.html"
+     data-auto_prompt="false">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-size="large"
+     data-theme="outline"
+     data-text="signin_with"
+     data-shape="rectangular"
+     data-logo_alignment="left">
+</div>
+
     </nav>
 
     <footer>
